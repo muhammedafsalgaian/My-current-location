@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         binding.btnLocation.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                getLastLocation();
-                Toast.makeText(getBaseContext(), "Your answer is correct!", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getBaseContext(), "Your answer is correct!", Toast.LENGTH_SHORT).show();
             }
 
         });
